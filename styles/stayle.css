@@ -28,7 +28,7 @@ body {
 .home {
   position: relative;
   height: 680px;
-  background: url(/fon/img-header.png) 100%/100% no-repeat;
+  background: url(fon/img-header.png) no-repeat;
   background-blend-mode: multiply;
   background-color: rgb(177, 159, 159);
   font-family: "Roboto";
@@ -254,7 +254,7 @@ body {
 
 .platforms__reality {
   margin-top: 90px;
-  background: url(/fon/Our\ Work.png) center/100% 100% no-repeat;
+  background: url(fon/Our\ Work.png) center/100% 100% no-repeat;
   padding: 200px 0px 1px 200px;
 }
 
@@ -321,7 +321,7 @@ body {
 }
 
 .platforms__reality-team {
-  background: url(/fon/team-home.png) center/100% 100% no-repeat;
+  background: url(fon/team-home.png) center/100% 100% no-repeat;
   margin-top: 70px;
   padding: 200px 200px 1px 600px;
 }
@@ -356,7 +356,7 @@ body {
 
 .frontbyte__fon {
   margin-top: 90px;
-  background: url(/fon/img-inside-press.png) right no-repeat;
+  background: url(fon/img-inside-press.png) right no-repeat;
   padding-top: 220px;
 }
 
@@ -447,7 +447,7 @@ body {
 .contacts__list-item {}
 
 .contacts__map {
-  background: url(/img-svg/img-map.svg) 249px 0px no-repeat;
+  background: url(img-svg/img-map.svg) 249px 0px no-repeat;
 }
 
 .contacts__column {
