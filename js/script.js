@@ -7,3 +7,5 @@ $('.frontbyte__slider').slick({
     slidesToScroll: 1,
     fade:true,
   });
+
+  
