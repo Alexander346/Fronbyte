@@ -99,13 +99,13 @@ body {
   flex-shrink: 1;
 }
 
-.header__lang {
+.lang {
   display: flex;
   margin-left: 227px;
   column-gap: 25px;
 }
 
-.header__lang-item {
+.lang-item {
   width: 20px;
   height: 20px;
   font-size: 15px;
@@ -117,24 +117,24 @@ body {
   align-items: center;
 }
 
-.header__lang-item--active {
+.lang-item--active {
   border: solid 1px rgba(255, 255, 255, 0.2);
   border-radius: 50%;
 }
 
-.header__services__advertising {
+.services__advertising {
   width: 730px;
   height: 260px;
   margin: 102px 200px 0px 200px;
 }
 
-.header_services__providing {
+.services__providing {
   width: 680px;
   height: 60px;
   color: #f4f4f7;
 }
 
-.header__response {
+.response {
   position: absolute;
   width: 580px;
   border: solid 1px rgb(240, 231, 231, 0.2);
