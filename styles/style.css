@@ -1,7 +1,8 @@
 body {
   background-color: #f4f4f7;
-  max-width: 1440px;
-  margin: 0 auto;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 300;
 }
 .title {
   font-family: "Roboto";
