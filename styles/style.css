@@ -3,9 +3,9 @@ body {
   font-family: "Roboto";
   font-size: 30px;
   font-weight: 300;
+  line-height: 1.33;
 }
 .title {
-  font-family: "Roboto";
   font-size: 60px;
   font-weight: 900;
   line-height: 1.08;
@@ -13,18 +13,14 @@ body {
   margin: 0 200px;
 }
 
-.subtitle {
-  font-family: "Roboto";
+.innovation {
   font-size: 20px;
-  font-weight: bold;
   line-height: 1.5;
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1.33;
   margin: 30px 300px 0px 200px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #2d2d42;
 }
-
-
 
 .home {
   position: relative;
@@ -32,16 +28,13 @@ body {
   background: url(../img/fon/img-header.jpg) no-repeat;
   background-blend-mode: multiply;
   background-color: rgb(177, 159, 159);
-  font-family: "Roboto";
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #f4f4f7;
-}
+} 
 
 .header {
   display: flex;
   padding-top: 50px;
+  font-size: 15px;
+  color: #f4f4f7;
 }
 
 .container {
@@ -63,15 +56,12 @@ body {
   column-gap: 50px;
   list-style-type: none;
   margin-left: 80px;
-  font-family: "Roboto";
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 1.33;
 }
 
 .header__nav-item-link {
   padding: 1px 1px;
   position: relative;
+  color: #f4f4f7;
 }
 
 .header__nav-item-link:after {
@@ -95,7 +85,6 @@ body {
 }
 
 .header__nav-item-link {
-  color: white;
   text-decoration: none;
   flex-shrink: 1;
 }
@@ -109,8 +98,6 @@ body {
 .lang-item {
   width: 20px;
   height: 20px;
-  font-size: 15px;
-  line-height: 1.33;
   width: 40px;
   height: 40px;
   display: flex;
@@ -127,6 +114,7 @@ body {
   width: 730px;
   height: 260px;
   margin: 102px 200px 0px 200px;
+  color: #f4f4f7;
 }
 
 .services__providing {
@@ -144,6 +132,9 @@ body {
   padding: 25px 0px 25px 200px;
   bottom: 0px;
   left: 0px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #f4f4f7;
 }
 
 .arrow {
@@ -158,19 +149,14 @@ body {
 
 .advantages__title {
   padding-top: 90px;
-  font-family: "Roboto";
   font-size: 60px;
-  font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.08;
-  letter-spacing: -0.75px;
   margin-top: 100px;
 }
 
-.advantages__subtitle {
+.advantages__innovation {
   width: 780px;
   height: 40px;
+  font-size: 30px;
 }
 
 .advantages__list-wrapper {
@@ -181,6 +167,9 @@ body {
 .advantages__list {
   display: flex;
   column-gap: 60px;
+  font-size: 20px;
+  font-weight:900;
+  line-height: 1.5;
 }
 
 .advantages__list-item {
@@ -189,31 +178,31 @@ body {
 
 .advantages__list-desc {
   width: 240px;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.5;
-  font-family: "Roboto";
   display: flex;
   text-align: left;
   margin-top: 30px;
 }
 
+/* skills  */
+
+.skills{
+  color: #2d2d42;
+}
+
 .skills__title {
   padding-top: 70px;
+  color: #c0c6c8;
 }
 
 .skills__list-wrapper {
   margin: 0 100px;
-  font-family: "Roboto";
   font-size: 20px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
 }
 
 .skills__list {
+  font-size: 20px;
+  line-height: 1.5;
   margin-top: 75px;
   padding-bottom: 137px;
   list-style-type: none;
@@ -221,6 +210,7 @@ body {
   flex-wrap: wrap;
   column-gap: 60px;
   row-gap: 30px;
+
 }
 
 .skills__list-item {
@@ -238,25 +228,31 @@ body {
   background-color: #64cae1;
 }
 
+/* platforms */
+
+.platforms{
+  color: #2d2d42;
+}
+
 .platforms__improved {
   margin-top: 100px;
 }
 
 .platforms__our {
   padding-top: 100px;
+
+  
 }
 
 .platforms__ways {
-  width: 880px;
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1.33;
+  width: 880px; 
 }
 
 .platforms__reality {
   margin-top: 90px;
   background: url(../img/fon/vid-birdieeyes.jpg) center/100% 100% no-repeat;
   padding: 200px 0px 1px 200px;
+  color: #f4f4f7;
 }
 
 .platforms__reality-block {
@@ -266,23 +262,14 @@ body {
 
 .platforms__reality-games {
   padding: 40px 40px 0px;
-  font-family: "Roboto";
   font-size: 13px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.54;
   letter-spacing: 1.73px;
-  color: #f4f4f7;
 }
 
 .platforms__reality-games-card {
   padding: 10px 40px 40px;
-  font-family: "Roboto";
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1.33;
-  color: #f4f4f7;
   overflow: auto;
 }
 
@@ -297,23 +284,15 @@ body {
 
 .platforms__applications-company {
   padding-top: 18px;
-  font-family: 'Roboto';
   font-size: 13px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.54;
   letter-spacing: 1.73px;
-
 }
 
 .platforms__applications__company-desc {
   padding-top: 8px;
   width: 440px;
-  font-family: "Roboto";
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1.33;
   overflow: auto;
 }
 
@@ -329,29 +308,33 @@ body {
 
 .platforms__reality-block-team {
   background-color: #f4f4f7;
+  color: #2d2d42;
+
 }
 
 .platforms__reality-games-team {
-  color: black;
+ 
 }
 
 .platforms__reality-games-card-team {
-  color: black;
   padding-top: 20px;
   padding-bottom: 110px;
   overflow: auto;
 }
 
+/* frontbyte */
+.frontbyte{
+color: #2d2d42;
+}
 .frontbyte__title {
   margin-top: 100px;
-  font-family: "Roboto";
   font-size: 60px;
   font-weight: 900;
   line-height: 1.08;
   letter-spacing: -0.75px;
 }
 
-.frontbyte__subtitle {
+.frontbyte__innovation {
   margin-top: 25px;
 }
 
@@ -368,17 +351,15 @@ body {
 
 .frontbyte__slider-pressa {
   padding-top: 40px;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.54;
+  letter-spacing: 1.73px;
 }
 
 .frontbyte__slider-pressa-text {
   width: 340px;
   height: 160px;
-  font-size: 30px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
   overflow: auto;
 }
 
@@ -390,11 +371,8 @@ body {
 .news__last {
   margin-top: 80px;
   margin-left: 130px;
-  font-family: "Roboto";
   font-size: 13px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.54;
   letter-spacing: 1.73px;
 }
@@ -408,27 +386,18 @@ body {
 
 .news__list-item {
   font-size: 20px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
-  font-family: "Roboto";
+
 }
 
 .news__list-item-date {
-  font-family: "Roboto";
   font-size: 15px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
+  color: #93a4a9;
 }
 
 .contacts {
-  color: white;
-  background-color: black;
+  color: #f4f4f7;
+  background-color: #000000;
   max-width: 1180px;
   position: relative;
 }
@@ -456,13 +425,8 @@ body {
 
 .contacts__address-office {
   width: 380px;
-  font-family: "Roboto";
   font-size: 20px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   color: #f4f4f7;
   margin-left: 200px;
 }
@@ -485,18 +449,19 @@ body {
 }
 
 .contacts__locations {
-  font-family: "Roboto";
-  font-size: 15px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
+ 
 }
-
+.contacts__strana{
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.5;
+}
 
 .contacts__address {
   width: 380px;
+  font-size: 15px;
+  line-height: 1.67;
+  color: #f4f4f7;
 }
 
 .contacts__mail {
@@ -506,7 +471,6 @@ body {
 
 .contacts__number {
   display: block;
-  color: #f4f4f7;
 }
 
 .contacts__response {
