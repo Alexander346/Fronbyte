@@ -5,6 +5,7 @@ body {
   font-weight: 300;
   line-height: 1.33;
 }
+
 .title {
   font-size: 60px;
   font-weight: 900;
@@ -19,7 +20,6 @@ body {
   margin: 30px 300px 0px 200px;
   font-size: 20px;
   font-weight: 300;
-  color: #2d2d42;
 }
 
 .home {
@@ -32,7 +32,7 @@ body {
 
 .header {
   display: flex;
-  padding-top: 50px;
+  padding: 40px 60px 40px 40px;
   font-size: 15px;
   color: #f4f4f7;
 }
@@ -47,21 +47,20 @@ body {
   display: flex;
 }
 
-.header__logo {
-  margin-left: 40px;
-}
+
 
 .header__nav-items {
   display: flex;
   column-gap: 50px;
   list-style-type: none;
   margin-left: 80px;
+  margin-top: 10px;
 }
 
 .header__nav-item-link {
-  padding: 1px 1px;
-  position: relative;
+  padding: 1px ;
   color: #f4f4f7;
+ 
 }
 
 .header__nav-item-link:after {
@@ -91,18 +90,18 @@ body {
 
 .lang {
   display: flex;
-  margin-left: 227px;
+   margin-left: 227px; 
   column-gap: 25px;
+  
 }
 
 .lang-item {
-  width: 20px;
-  height: 20px;
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #f4f4f7;
 }
 
 .lang-item--active {
@@ -113,14 +112,15 @@ body {
 .services__advertising {
   width: 730px;
   height: 260px;
-  margin: 102px 200px 0px 200px;
+  margin: 45px 200px 0px 200px;
   color: #f4f4f7;
 }
 
 .services__providing {
-  width: 680px;
-  height: 60px;
   color: #f4f4f7;
+  width: 680px;
+  padding-right: 40px;
+
 }
 
 .response {
@@ -142,10 +142,15 @@ body {
   margin-right: 50px;
 }
 
-.wrapper {
+/* advantages */
+
+.advantages{
   background-color: rgb(255, 255, 255);
-  max-width: 1180px;
+  width: 1180px;
+  margin: 0 auto;
 }
+
+.advantages__header
 
 .advantages__title {
   padding-top: 90px;
@@ -159,12 +164,9 @@ body {
   font-size: 30px;
 }
 
-.advantages__list-wrapper {
+.advantages__list {
   margin-top: 85px;
   margin-left: 160px;
-}
-
-.advantages__list {
   display: flex;
   column-gap: 60px;
   font-size: 20px;
@@ -186,7 +188,10 @@ body {
 /* skills  */
 
 .skills{
+  background-color: rgb(255, 255, 255);
+  width: 1180px;
   color: #2d2d42;
+  margin: 0 auto;
 }
 
 .skills__title {
@@ -204,17 +209,17 @@ body {
   font-size: 20px;
   line-height: 1.5;
   margin-top: 75px;
-  padding-bottom: 137px;
+  padding-bottom: 145px;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 60px;
-  row-gap: 30px;
+  column-gap: 103px;
+  row-gap: 21px;
 
 }
 
 .skills__list-item {
-  flex-basis: 355px;
+  flex-basis: 400px;
   column-gap: 30px;
   display: flex;
   align-items: center;
@@ -226,6 +231,7 @@ body {
   flex-shrink: 0;
   height: 1px;
   background-color: #64cae1;
+  
 }
 
 /* platforms */
@@ -239,13 +245,16 @@ body {
 }
 
 .platforms__our {
-  padding-top: 100px;
+  /* padding-top: 100px; */
 
   
 }
 
 .platforms__ways {
-  width: 880px; 
+  line-height: 1.33;
+  font-size: 30px;
+  font-weight: 300; 
+
 }
 
 .platforms__reality {

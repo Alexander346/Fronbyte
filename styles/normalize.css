@@ -18,6 +18,7 @@
 *::before,
 *::after {
 box-sizing: inherit;
+margin: 0;
 }
 /* Sections
    ========================================================================== */
@@ -172,8 +173,10 @@ select,
 textarea {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
 }
 
 /**
@@ -194,6 +197,7 @@ input { /* 1 */
 button,
 select { /* 1 */
   text-transform: none;
+  padding: 0;
 }
 
 /**
