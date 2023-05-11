@@ -308,26 +308,34 @@ body {
   width: 580px;
 }
 
-.platforms__reality-team {
-  background: url(../img/fon/img-team-home.jpg) center/100% 100% no-repeat;
-  margin-top: 70px;
-  padding: 200px 200px 1px 600px;
+.team__work{
+  background: url(../img/fon/img-team-home.jpg) center no-repeat;
+  margin-top: 100px;
+  padding: 200px 200px 20px 600px;
+
+
 }
 
-.platforms__reality-block-team {
+
+.team__work-block{
   background-color: #f4f4f7;
   color: #2d2d42;
-
+  width: 380px;
 }
 
-.platforms__reality-games-team {
- 
+.team__work-games {
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.54;
+  letter-spacing: 1.73px;
+  
 }
 
-.platforms__reality-games-card-team {
+.team__games-card {
   padding-top: 20px;
   padding-bottom: 110px;
   overflow: auto;
+  padding-top: 50px;
 }
 
 /* frontbyte */
@@ -344,6 +352,10 @@ color: #2d2d42;
 
 .frontbyte__innovation {
   margin-top: 25px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.33;
+  white-space: nowrap;
 }
 
 .frontbyte__fon {
