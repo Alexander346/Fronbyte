@@ -19,7 +19,10 @@
 *::after {
 box-sizing: inherit;
 margin: 0;
+
 }
+
+
 /* Sections
    ========================================================================== */
 
@@ -156,6 +159,7 @@ sup {
 
 img {
   border-style: none;
+  display: block;
 }
 
 /* Forms

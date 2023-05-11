@@ -244,16 +244,12 @@ body {
   margin-top: 100px;
 }
 
-.platforms__our {
-  /* padding-top: 100px; */
-
-  
-}
 
 .platforms__ways {
   line-height: 1.33;
   font-size: 30px;
-  font-weight: 300; 
+  font-weight: 300;
+  white-space:nowrap; 
 
 }
 
@@ -267,6 +263,8 @@ body {
 .platforms__reality-block {
   width: 380px;
   background-color: #64cae1;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .platforms__reality-games {
@@ -278,7 +276,7 @@ body {
 }
 
 .platforms__reality-games-card {
-  padding: 10px 40px 40px;
+  padding: 40px;
   overflow: auto;
 }
 
@@ -288,21 +286,22 @@ body {
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
-  row-gap: 40px;
+  row-gap: 70px;
 }
 
 .platforms__applications-company {
-  padding-top: 18px;
+  margin-top: 40px;
   font-size: 13px;
   font-weight: 900;
   line-height: 1.54;
   letter-spacing: 1.73px;
 }
 
-.platforms__applications__company-desc {
-  padding-top: 8px;
+
+.platforms__company-desc {
   width: 440px;
   overflow: auto;
+  margin-top: 30px;
 }
 
 .platforms__applications {
