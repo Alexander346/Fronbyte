@@ -6,6 +6,11 @@ body {
   line-height: 1.33;
 }
 
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
 .title {
   font-size: 60px;
   font-weight: 900;
@@ -22,25 +27,16 @@ body {
   font-weight: 300;
 }
 
-.home {
-  position: relative;
-  height: 680px;
-  background: url(../img/fon/img-header.jpg) no-repeat;
-  background-blend-mode: multiply;
-  background-color: rgb(177, 159, 159);
-} 
-
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   padding: 40px 60px 40px 40px;
   font-size: 15px;
   color: #f4f4f7;
-}
-
-.container {
-  max-width: 1180px;
-  width: 100%;
-  margin: 0 auto;
+  z-index: 1;
 }
 
 .header__nav {
@@ -112,15 +108,26 @@ body {
 .services__advertising {
   width: 730px;
   height: 260px;
-  margin: 45px 200px 0px 200px;
+  margin: 0px 200px 0px 200px;
+  padding-top: 173px;
+  
   color: #f4f4f7;
 }
+
+.home {
+  position: relative;
+  height: 680px;
+  background: url(../img/fon/img-header.jpg)  no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgb(177, 159, 159);
+} 
+
 
 .services__providing {
   color: #f4f4f7;
   width: 680px;
   padding-right: 40px;
-
+  margin-top: 200px;
 }
 
 .response {

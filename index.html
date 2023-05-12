@@ -12,16 +12,12 @@
   <link rel="stylesheet" href="/styles/style.css">
   <title>Frontbyte</title>
 </head>
-
 <body class="body">
-  <section class="home container">
-    <!-- navigation -->
-    <header class="header">
+    <header class="header container">
+      <!-- navigation -->
       <nav class="header__nav">
         <a href="#">
-          <picture>
             <img class="header__logo" src="img/img-svg/logо.svg" alt="#" width="40" height="40">
-          </picture>
         </a>
         <ul class="header__nav-items">
           <li class="header__nav-item"><a class="header__nav-item-link" href="#About">About</a></li>
@@ -32,7 +28,6 @@
           <li class="header__nav-item"><a class="header__nav-item-link" href="#Contacts">Contacts</a></li>
         </ul>
       </nav>
-      
       <!-- lang -->
       <div class="lang">
        <button><span class="lang-item">NO</span></button> 
@@ -41,6 +36,7 @@
       </div>
     </header>
     <!-- services -->
+    <section class="home container">
     <div class="services">
       <h2 class="services__advertising title">We provide digital services
         and develop our own products in sports and iHealth industry </h2>
@@ -297,19 +293,18 @@
   <!-- Подключаем слайдер Slick -->
   <script src="./js/slick.min.js"></script>
   <!-- Подключаем файл скриптов -->
-  <script src="./js/script.js"></script>
-  <!-- <script>
+  <!-- <script src="./js/script.js"></script>
+   <script>
     const header = document.querySelector(".header")
-    window.onscroll = function (event) {
-      if (window.scrollY > 250 )  {
-        header.style.position = "fixed";
-        header.style.background = "rgba(0, 0, 0, 0.4)";
-        header.style.color = "#f4f4f7";
-      } else {
-        header.style.position = "static";
-      }
-    };
-  -->
+    window.onscroll = function (event) { -->
+      // if (window.scrollY > 250 )  {
+        // header.style.position = "fixed";
+        // header.style.background = "rgba(0, 0, 0, 0.4)";
+        // header.style.color = "#f4f4f7";
+      // } else {
+      //   header.style.position = "static";
+      // }
+    <!-- //  }; -->
   </script>
 </body>
 
