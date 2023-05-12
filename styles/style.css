@@ -129,7 +129,7 @@ body {
   border: solid 1px rgb(240, 231, 231, 0.2);
   display: flex;
   align-items: center;
-  padding: 25px 0px 25px 200px;
+  padding: 22px 0px 25px 200px;
   bottom: 0px;
   left: 0px;
   font-size: 20px;
@@ -359,18 +359,19 @@ color: #2d2d42;
 }
 
 .frontbyte__fon {
-  margin-top: 90px;
-  background: url(../img/fon/img-inside-press.jpg) right no-repeat;
-  padding-top: 220px;
+  margin-top: 149px;
+  background: url(../img/fon/img-inside-press.jpg) right  100% no-repeat;
+  padding-top: 160px;
 }
 
 .frontbyte__slider {
   width: 400px;
   background-color: #f4f4f7;
+ 
 }
 
 .frontbyte__slider-pressa {
-  padding-top: 40px;
+  margin-top: 40px;
   font-size: 13px;
   font-weight: 900;
   line-height: 1.54;
@@ -379,18 +380,19 @@ color: #2d2d42;
 
 .frontbyte__slider-pressa-text {
   width: 340px;
-  height: 160px;
   overflow: auto;
+  margin-top: 30px;
 }
 
 .item {
-  padding-top: 25px;
-  padding-bottom: 27px;
+  padding-top: 55px;
+  padding-bottom: 48px;
+
 }
+/* news */
 
 .news__last {
   margin-top: 80px;
-  margin-left: 130px;
   font-size: 13px;
   font-weight: 900;
   line-height: 1.54;
@@ -402,6 +404,8 @@ color: #2d2d42;
   list-style-type: none;
   margin-top: 50px;
   column-gap: 120px;
+  text-align: left;
+  padding: 0;
 }
 
 .news__list-item {
@@ -413,12 +417,14 @@ color: #2d2d42;
 .news__list-item-date {
   font-size: 15px;
   color: #93a4a9;
+  margin-top: 20px;
 }
 
 .contacts {
   color: #f4f4f7;
   background-color: #000000;
-  max-width: 1180px;
+  width: 1180px;
+  margin-top: 100px;
   position: relative;
 }
 
@@ -432,6 +438,7 @@ color: #2d2d42;
   column-gap: 25px;
   list-style-type: none;
   margin-left: 25px;
+  padding-top: 19px;
 }
 
 .contacts__map {
@@ -479,6 +486,7 @@ color: #2d2d42;
 
 .contacts__address {
   width: 380px;
+  margin-top: 20px;
   font-size: 15px;
   line-height: 1.67;
   color: #f4f4f7;
@@ -491,11 +499,13 @@ color: #2d2d42;
 
 .contacts__number {
   display: block;
+  color: #f4f4f7;
 }
 
 .contacts__response {
   position: absolute;
   background-color: #64cae1;
+  
 }
 
 .contacts__arrow {
