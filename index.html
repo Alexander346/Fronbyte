@@ -9,15 +9,15 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="shortcut icon" href="img/logо.ico">
   <link rel="stylesheet" href="styles/slider.css">
-  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Frontbyte</title>
 </head>
 <body class="body">
     <header class="header container">
+      <img class="header__logo" src="img/img-svg/logо.svg" alt="#" width="40" height="40">
       <!-- navigation -->
       <nav class="header__nav">
-        <a href="#">
-            <img class="header__logo" src="img/img-svg/logо.svg" alt="#" width="40" height="40">
+        <a href="#">  
         </a>
         <ul class="header__nav-items">
           <li class="header__nav-item"><a class="header__nav-item-link" href="#About">About</a></li>
@@ -30,7 +30,7 @@
       </nav>
       <!-- lang -->
       <div class="lang">
-       <button><span class="lang-item">NO</span></button> 
+       <button><span class="lang-item">No</span></button> 
         <button><span class="lang-item lang-item--active">En</span></button> 
         <button><span class="lang-item">Ru</span></button> 
       </div>
@@ -38,12 +38,12 @@
     <!-- services -->
     <section class="home container">
     <div class="services">
-      <h2 class="services__advertising title">We provide digital services
-        and develop our own products in sports and iHealth industry </h2>
-      <h3 class="services__providing innovation">We put technology and sport together to create the world's
+      <h1 class="services__advertising title">We provide digital services
+        and develop our own products in sports and iHealth industry </h1>
+      <p class="services__providing innovation">We put technology and sport together to create the world's
         most
         efficient
-        and popular sports apps.</h3>
+        and popular sports apps.</p>
     </div>
     <div class="response">
       <span class="response__text">Drop us a line</span>
@@ -60,23 +60,23 @@
         <div class="advantages__container">
           <div class="advantages__header">
             <h2 class="advantages__title title">We combine high level of professionalism and individual approach</h2>
-            <h3 class="advantages__innovation innovation">We have subject domain expertise in various aspects</h3>
+            <p class="advantages__innovation innovation">We have subject domain expertise in various aspects</p>
           </div>
             <ul class="advantages__list">
               <li class="advantages__list-item">
                 <a href="http://" rel="noopener noreferrer"><img class="advantages__list-icon"
                     src="img/img-svg/documents.svg" alt="#" width="90" height="90"></a>
-                <p class="advantages__list-desc">Project management for simple and complex projects</p>
+                    <a href=""><p class="advantages__list-desc">Project management for simple and complex projects</p></a>
               </li>
               <li class="advantages__list-item">
                 <a href="http://" rel="noopener noreferrer"><img class="advantages__list-icon"
                     src="img/img-svg/galstuk.svg" alt="#" width="90" height="90"></a>
-                <p class="advantages__list-desc">Management for hire</p>
+                    <a href=""><p class="advantages__list-desc">Management for hire</p></a>
               </li>
               <li class="advantages__list-item">
                 <a href="http://" rel="noopener noreferrer"><img class="advantages__list-icon"
                     src="img/img-svg/lampa.svg" alt="#" width="90" height="90"></a>
-                <p class="advantages__list-desc">Digital transformation</p>
+                    <a href=""> <p class="advantages__list-desc">Digital transformation</p></a>
               </li>
             </ul>
         </div>
@@ -98,19 +98,19 @@
             </ul>
           </div>
         </div>
+        </div>
       </section>
-    </div>
     <!-- platforms -->
     <section class="platforms">
       <div class="platforms__container container">
         <div class="platforms__improved">
           <h2 class="platforms__our title">Our Work</h2>
-          <h3 class="platforms__ways innovation">We change the way businesses and industries operate.</h3>
+          <p class="platforms__ways innovation">We change the way businesses and industries operate.</p>
         </div>
         <div class="platforms__reality">
           <div class="platforms__reality-block">
             <h5 class="platforms__reality-games">BIRDIEEYES</h5>
-            <p class="platforms__reality-games-card">We have introduced AR technology into one of the most traditional
+            <p class="platforms__reality-card">We have introduced AR technology into one of the most traditional
               games
               and made it even more interesting</p>
           </div>
@@ -173,7 +173,7 @@
           <div class="team__work container">
             <div class="team__work-block">
             <h5 class="platforms__reality-games team__work-games">OUR TEAM</h5>
-            <p class="platforms__reality-games-card team__games-card">We are united by our passion to
+            <p class="platforms__reality-card team__games-card">We are united by our passion to
               create unique and efficient digital products</p>
              </div> 
         </div>
@@ -183,7 +183,7 @@
     <section class="frontbyte">
       <div class="container">
         <h2 class="frontbyte__title title ">Inside Frontbyte</h2>
-        <h3 class="frontbyte__innovation innovation">We change the way businesses and industries operate.</h3>
+        <p class="frontbyte__innovation innovation">We change the way businesses and industries operate.</p>
         <div class="frontbyte__fon">
           <div class="frontbyte__slider ">
             <div class="frontbyte__slider-item">
@@ -226,9 +226,9 @@
     <article class="news">
       <div class="news__container container">
         <h2 class="news__last">LATEST NEWS</h2>
-        <ul class="news__list">
+        <ul class="news__list-items">
           <li class="news__list-item"><a href="http://" rel="noopener noreferrer"> How to use email
-              marketing to connect with your usersn<p class="news__list-item-date">Dec<time> 19.2018</time></p></a></li>
+              marketing to connect with your users<p class="news__list-item-date">Dec<time> 19.2018</time></p></a></li>
           <li class="news__list-item"><a href="http://" rel="noopener noreferrer"> How to use email
               marketing to connect with your users <p class="news__list-item-date"><time>Dec 19.2018</time></p></a></li>
           <li class="news__list-item"> <a href="http://" rel="noopener noreferrer">How to use email
@@ -256,15 +256,18 @@
         <div class="contacts__column">
           <p class="contacts__address-office">Our head office is located in Norway.
             Research and development center is located in Belarus.</p>
-          <div class="marker"></div>
+            <div>
+            <span class="marker-blue"></span>
+            <span class="marker-pink"></span>
+            </div>
         </div>
         <div class="contacts__wrap">
           <div class="contacts__locations">
             <h3 class="contacts__strana">Norway</h3>
             <div class="contacts__address">Kristiansand <br>
               Vestre strandgate, 23, 4th and 6th floor N-4611
-              <a class="contacts__mail" href="contact@frontbyte.no">contact@frontbyte.no</a>
-              <a class="contacts__number" href="#">+47 416 36 983</a>
+              <a class="contacts__mail" target="_blank" href="contact@frontbyte.no">contact@frontbyte.no</a>
+              <a class="contacts__number"  target="_blank" href="#">+47 416 36 983</a>
             </div>
           </div>
 
@@ -272,8 +275,8 @@
             <h3 class="contacts__strana">Belarus</h3>
             <div class="contacts__address"> Minsk <br>
               Dombrovskaya str., 9, оffice 10.2.2
-              <a class="contacts__mail" href="contact@frontbyte.by">contact@frontbyte.by</a>
-              <a class="contacts__number" href="">+375 29 1393336</a>
+              <a class="contacts__mail" target="_blank" href="contact@frontbyte.by">contact@frontbyte.by</a>
+              <a class="contacts__number" target="_blank" href="">+375 29 1393336</a>
             </div>
             <p class="contacts__data"><time>© 2008–2018 Frontbyte</time></p>
           </div>
@@ -282,7 +285,7 @@
       <div>
       </div>
       <div class="response contacts__response ">
-        <span class="response__text contacts__response__text ">Drop us a line</span>
+        <span class="response__text ">Drop us a line</span>
         <img class="arrow contacts__arrow" src="img/img-svg/strelka.svg" alt="#">
       </div>
 
@@ -293,17 +296,17 @@
   <!-- Подключаем слайдер Slick -->
   <script src="./js/slick.min.js"></script>
   <!-- Подключаем файл скриптов -->
-  <!-- <script src="./js/script.js"></script>
-   <script>
+  <script src="./js/script.js"></script>
+   <!-- <script>
     const header = document.querySelector(".header")
-    window.onscroll = function (event) { -->
-      // if (window.scrollY > 250 )  {
+    window.onscroll = function (event) {  -->
+      <!-- // if (window.scrollY > 250 )  {
         // header.style.position = "fixed";
         // header.style.background = "rgba(0, 0, 0, 0.4)";
         // header.style.color = "#f4f4f7";
       // } else {
       //   header.style.position = "static";
-      // }
+      // } -->
     <!-- //  }; -->
   </script>
 </body>
