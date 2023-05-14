@@ -297,18 +297,23 @@
   <script src="./js/slick.min.js"></script>
   <!-- Подключаем файл скриптов -->
   <script src="./js/script.js"></script>
-   <!-- <script>
+    <!-- <script>
     const header = document.querySelector(".header")
-    window.onscroll = function (event) {  -->
-      <!-- // if (window.scrollY > 250 )  {
-        // header.style.position = "fixed";
-        // header.style.background = "rgba(0, 0, 0, 0.4)";
-        // header.style.color = "#f4f4f7";
-      // } else {
-      //   header.style.position = "static";
-      // } -->
-    <!-- //  }; -->
-  </script>
+    const scrolL = document.querySelector(".header__nav-items")
+    const itemLink = document.querySelector("header__nav-item-link")
+    window.onscroll = function (event) {  
+       if (window.pageYOffset > 100)  {
+        header.classList.add("header__fixed")
+        scrolL.classList.add("nav-items-scroll")
+        itemLink.classList.add("nav-item-link")
+
+      } else if (window.pageYOffset < 100){
+        header.classList.remove("header__fixed")
+        scrolL.classList.remove("nav-items-scroll")
+        itemLink.classList.remove("nav-item-link")
+      }
+     }; 
+  </script>  -->
 </body>
 
 </html>
