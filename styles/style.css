@@ -25,6 +25,8 @@ body {
   line-height: 1.33;
 }
 
+
+
 .container {
   max-width: 1180px;
   width: 100%;
@@ -265,6 +267,7 @@ body {
 
 .advantages__list-desc {
   width: 240px;
+  overflow: auto;
   display: flex;
   text-align: left;
 }
@@ -345,7 +348,7 @@ body {
 .platforms__reality-block {
   width: 380px;
   color: var(--coral);
-  overflow: scroll;
+  overflow: auto;
   height: 380px;
   background-color: var(--aquamarine);
   margin-bottom: 20px;
@@ -354,7 +357,7 @@ body {
 }
 
 .platforms__reality-games {
-  padding: 40px 40px 50px 40px;
+  padding: 40px 40px 39px 40px;
   font-size: 13px;
   font-weight: 900;
   line-height: 1.54;
@@ -362,6 +365,7 @@ body {
 }
 
 .platforms__reality-card {
+  overflow: auto;
   padding: 0 40px 40px;
   overflow: auto;
 }
@@ -511,6 +515,7 @@ body {
 
 .news__list-item {
   font-size: 20px;
+  overflow: auto;
   line-height: 1.5;
   padding-right: 60px;
   transition: all 0.5s ease;
@@ -576,6 +581,7 @@ body {
 .contacts__address-office {
   width: 380px;
   font-size: 20px;
+  overflow: auto;
   line-height: 1.5;
   color: var(--coral);
   margin-left: 200px;
@@ -620,6 +626,7 @@ div>span:hover {
 
 .contacts__address {
   width: 380px;
+  overflow: auto;
   font-size: 15px;
   line-height: 1.67;
   color: var(--coral);
@@ -644,6 +651,9 @@ width: fit-content;
   color: var(--aquamarine);
 }
 
+.contacts__messengers > a:hover{
+  color: var(--pale-green);
+} 
 .contacts__number {
   color: var(--coral);
 }

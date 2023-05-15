@@ -150,6 +150,12 @@ sub {
 sup {
   top: -0.5em;
 }
+::-webkit-scrollbar {
+  width: 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
 
 /* Embedded content
    ========================================================================== */
