@@ -86,7 +86,8 @@ pre {
 a {
   background-color: transparent;
   text-decoration: none;
-  color: #2d2d42;
+  color: var(--purplish-blue);
+  cursor: pointer;
 }
 
 /**
