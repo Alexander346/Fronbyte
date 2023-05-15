@@ -61,7 +61,6 @@ body {
 }
 
 .header__fixed {
-  margin: 0 auto;
   position: absolute;
   z-index: 20;
   top: 0;
@@ -345,7 +344,7 @@ body {
 
 .platforms__reality-block {
   width: 380px;
-  color: var(--coral);contacts__column
+  color: var(--coral);
   overflow: scroll;
   height: 380px;
   background-color: var(--aquamarine);
@@ -355,7 +354,7 @@ body {
 }
 
 .platforms__reality-games {
-  padding: 40px 40px 40px 40px;
+  padding: 40px 40px 50px 40px;
   font-size: 13px;
   font-weight: 900;
   line-height: 1.54;
@@ -363,8 +362,7 @@ body {
 }
 
 .platforms__reality-card {
-  padding: 40px;
-  padding-top: 0;
+  padding: 0 40px 40px;
   overflow: auto;
 }
 
@@ -374,6 +372,7 @@ body {
   flex-wrap: wrap;
   column-gap: 20px;
   row-gap: 70px;
+  padding-bottom: 89px;
 }
 
 .platforms__applications-company {
@@ -396,20 +395,18 @@ body {
 }
 
 .platforms__applications:hover {
-  transform: scale(1.2);
   box-shadow: 20px -15px 10px 5px var(--black-blur);
   background-color: var(--blue-alice);
 
 }
 
 .team {
-  margin-bottom: 100px;
+  margin-bottom: 83px;
   display: block;
 }
 
 .team__work {
   background: url(../img/fon/img-team-home.jpg) center no-repeat;
-  margin-top: 89px;
   padding: 200px 200px 20px 600px;
 }
 
@@ -417,7 +414,9 @@ body {
   background-color: var(--coral);
   color: var(--purplish-blue);
   width: 380px;
+  margin-top: 10px;
   margin-bottom: 20px;
+  
 }
 
 .team__work-games {
@@ -428,8 +427,7 @@ body {
 }
 
 .team__games-card {
-  padding-top: 20px;
-  padding-bottom: 90px;
+  padding-bottom: 110px;
   overflow: auto;
 }
 
@@ -534,6 +532,7 @@ body {
   background-color: var(--black);
   width: 1180px;
   position: relative;
+  overflow: hidden;
 }
 
 .contacts__box {
@@ -625,22 +624,39 @@ div>span:hover {
   line-height: 1.67;
   color: var(--coral);
 }
+.contacts__address::after{
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px; 
+}
+
+.contacts__messengers{
+display: flex;
+flex-direction: column;
+width: fit-content;
+}
 
 .contacts__mail {
-  color: #64cae1;
-  display: block;
-  box-sizing: content-box;
+  color: var(--aquamarine);
 }
 
 .contacts__number {
-  display: block;
   color: var(--coral);
-  width: 120px;
 }
+
+
 
 .contacts__response {
   position: absolute;
   background-color: var(--aquamarine);
+}
+
+.contacts__response:hover{
+  transform: scale(1.1);
 }
 
 .contacts__arrow {
