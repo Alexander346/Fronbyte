@@ -25,8 +25,6 @@ body {
   line-height: 1.33;
 }
 
-
-
 .container {
   max-width: 1180px;
   width: 100%;
@@ -51,11 +49,12 @@ body {
 }
 
 /* header */
+
 .header {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0px;
   display: flex;
   padding: 40px 60px 40px 40px;
   font-size: 15px;
@@ -63,16 +62,20 @@ body {
 }
 
 .header__fixed {
-  position: absolute;
+  z-index: 10;
   top: 0;
   left: 0;
   right: 0;
-  max-width: 100%;
+  max-width: fit-content;
   background: var(--black-blur);
-  position: fixed;
+  position: sticky;
   animation-name: fad;
   animation-duration: 1s;
-  padding-left: 15%;
+  border-radius: 15px;
+}
+
+.header__fixed:hover {
+  background-color: var(--pale-green);
 }
 
 @keyframes fad {
@@ -98,10 +101,11 @@ body {
   margin-left: 80px;
   padding-top: 10px;
 }
+
 .nav-items-scroll {
-  margin-left: 160px;
-  font-size: 20px;
-  column-gap: 100px;
+  padding-left: -150px;
+  font-size: 18px;
+  column-gap: 53px;
 }
 
 .header__nav-item-link {
@@ -118,6 +122,7 @@ body {
   bottom: 0;
   left: 50%;
 }
+
 /* Обтекание */
 .header__nav-item-link:hover:after {
   width: 100%;
@@ -140,6 +145,11 @@ body {
   margin-left: 227px;
   column-gap: 25px;
 }
+
+.lang__scroll {
+  margin-left: 100px;
+}
+
 
 .lang-item {
   width: 40px;
@@ -168,7 +178,7 @@ body {
   margin-bottom: 200px;
 }
 
-.home {
+.services_home {
   position: relative;
   height: 680px;
   background: url(../img/fon/img-header.jpg) no-repeat;
