@@ -1,0 +1,307 @@
+.green {
+  color: #85ff97
+}
+
+.line {
+  position: absolute;
+  background-color: #c0c6c8;
+  height: 1px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.33;
+  color: #f4f4f7;
+}
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto 120px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.08;
+  letter-spacing: -0.75px;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+/* header */
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding: 40px 60px 40px 40px;
+  font-size: 15px;
+  z-index: 1;
+}
+
+.header__fixed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  animation-name: fad;
+  animation-duration: 1s;
+}
+
+@keyframes fad {
+  from {
+    opacity: 0;
+    top: -50px;
+  }
+
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav-items {
+  display: flex;
+  column-gap: 50px;
+  list-style-type: none;
+  margin-left: 80px;
+  padding-top: 10px;
+}
+
+.nav-items-scroll {
+  margin-left: 160px;
+  font-size: 20px;
+  column-gap: 140px;
+}
+
+.header__nav-item-link {
+  padding: 1px;
+  color: #f4f4f7;
+  position: relative;
+}
+
+.nav-item-link {
+  color: rgb(48, 32, 32);
+}
+
+.header__nav-item-link:after {
+  content: "";
+  border-bottom: 3px solid rgb(29, 110, 18);
+  width: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+/* Обтекание */
+.header__nav-item-link:hover:after {
+  width: 100%;
+  height: 3px;
+  left: 0;
+  transition: all 0.5s linear;
+}
+
+.header__nav-item {
+  flex-shrink: 0;
+}
+
+.header__nav-item-link {
+  text-decoration: none;
+  flex-shrink: 1;
+}
+
+.lang {
+  display: flex;
+  margin-left: 227px;
+  column-gap: 25px;
+
+}
+
+.lang-item {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang-item--active {
+  border: solid 1px rgba(255, 255, 255, 0.2);
+
+}
+
+.home {
+  position: relative;
+  height: 680px;
+  background: url(../img/img-xland-bg.jpg) no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgb(177, 159, 159);
+  padding: 150px 0 0 200px;
+}
+
+.home__xland {
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.54;
+  letter-spacing: 1.73px;
+}
+
+
+.home__advertising {
+  margin: 30px 0;
+  max-width: 600px;
+}
+
+.home__providing {
+  max-width: 660px;
+}
+
+
+/* xland__logo */
+
+.xland__logo {
+  width: 100%;
+}
+
+.xland__logo-img {
+  max-width: 560px;
+  width: 100%;
+  height: 277px;
+  margin: 0 auto;
+}
+
+/* company__information */
+
+.company__information {
+  display: flex;
+  position: relative;
+}
+
+.company__information-content {
+  display: flex;
+  flex-direction: column;
+  padding: 31px 0;
+  ;
+  justify-content: space-between;
+}
+
+.company__information-img {
+  position: relative;
+  z-index: 15;
+  max-width: 750px;
+  width: 100%;
+  height: 547px;
+}
+
+/* feedback */
+
+.feedback {
+  width: 780px;
+  text-align: center;
+}
+
+.feedback__content {
+  margin: 0 0 40px;
+}
+
+.feedback__additional {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* metrics */
+
+.metrics {
+  background-color: #171717;
+  padding: 50px 300px 90px 200px;
+}
+
+.metrics__title {
+  font-size: 13px;
+  margin: 0 0 70px;
+}
+
+.metrics__content {
+  display: flex;
+  column-gap: 160px;
+}
+
+.metrics__content-title {
+  margin: 0 0 20px;
+}
+
+.metrics__content-desc {
+  font-size: 13px;
+}
+
+/* digital-park */
+
+.digital-park {
+  display: flex;
+  position: relative;
+  column-gap: 20px;
+}
+
+
+.digital-park__content {
+  display: flex;
+  flex-direction: column;
+  padding: 31px 0;
+  justify-content: space-between;
+}
+
+.digital-park__img {
+  position: relative;
+  z-index: 15;
+  max-width: 648px;
+  width: 100%;
+  height: 547px;
+}
+
+/* footer */
+
+.footer {
+  margin: 0 auto;
+  height: 500px;
+  padding: 90px 0 25px 200px;
+  background-color: #171717;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 300;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__caption {
+  margin: 0 0 30px;
+}
+
+.footer_copyright {
+  margin: auto 0 0;
+}
