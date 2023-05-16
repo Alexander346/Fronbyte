@@ -64,7 +64,6 @@ body {
 
 .header__fixed {
   position: absolute;
-  z-index: 20;
   top: 0;
   left: 0;
   right: 0;
@@ -73,10 +72,6 @@ body {
   position: fixed;
   animation-name: fad;
   animation-duration: 1s;
-}
-
-.header__fixed:hover {
-  background-color: var(--black);
 }
 
 @keyframes fad {
@@ -102,21 +97,16 @@ body {
   margin-left: 80px;
   padding-top: 10px;
 }
-
 .nav-items-scroll {
   margin-left: 160px;
   font-size: 20px;
-  column-gap: 140px;
+  column-gap: 100px;
 }
 
 .header__nav-item-link {
   padding: 1px;
   color: var(--coral);
   position: relative;
-}
-
-.nav-item-link {
-  color: var(--chocolate-brown);
 }
 
 .header__nav-item-link:after {
@@ -127,7 +117,6 @@ body {
   bottom: 0;
   left: 50%;
 }
-
 /* Обтекание */
 .header__nav-item-link:hover:after {
   width: 100%;
@@ -353,7 +342,7 @@ body {
   background-color: var(--aquamarine);
   margin-bottom: 20px;
   display: block;
-  
+
 }
 
 .platforms__reality-games {
@@ -420,7 +409,7 @@ body {
   width: 380px;
   margin-top: 10px;
   margin-bottom: 20px;
-  
+
 }
 
 .team__work-games {
@@ -631,29 +620,31 @@ div>span:hover {
   line-height: 1.67;
   color: var(--coral);
 }
-.contacts__address::after{
+
+.contacts__address::after {
   content: "";
   display: block;
   position: absolute;
   right: 0;
   bottom: -3px;
   width: 0;
-  height: 2px; 
+  height: 2px;
 }
 
-.contacts__messengers{
-display: flex;
-flex-direction: column;
-width: fit-content;
+.contacts__messengers {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
 }
 
 .contacts__mail {
   color: var(--aquamarine);
 }
 
-.contacts__messengers > a:hover{
+.contacts__messengers>a:hover {
   color: var(--pale-green);
-} 
+}
+
 .contacts__number {
   color: var(--coral);
 }
@@ -665,7 +656,7 @@ width: fit-content;
   background-color: var(--aquamarine);
 }
 
-.contacts__response:hover{
+.contacts__response:hover {
   transform: scale(1.1);
 }
 
