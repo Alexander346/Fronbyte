@@ -31,22 +31,29 @@
 
 .frontbyte__slider .slick-dots li {
     list-style: none;
-
-
+}
+.slick-list{
+    display: block;
 }
 
 .frontbyte__slider .slick-dots li button {
     font-size: 0;
     width: 64px;
-    height: 3px;
-    background-color: #2d2d42;
+    height: 1px;
+    background-color: #c0c6c8;
     display: block;
-
 }
+
+.slick-dots > li{
+    padding: 12px 0;
+    
+}
+/* .slick-dots{
+} */
 
 .frontbyte__slider .slick-dots li.slick-active button {
     border-color: transparent;
-    border: 3px solid #fff;
+    border: 1px solid #2d2d42;
 
 }
 
