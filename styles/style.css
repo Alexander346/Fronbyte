@@ -462,7 +462,7 @@ body {
 
 .frontbyte__fon {
   background: url(../img/fon/img-inside-press.jpg) right 100% no-repeat;
- padding-top: 215px;
+  padding-top: 190px;
 
 }
 
@@ -477,13 +477,13 @@ body {
   font-weight: 900;
   line-height: 1.54;
   letter-spacing: 1.73px;
-  padding-top: 43px;
+  padding-top: 45px;
   padding-bottom: 30px;
 }
 
 .frontbyte__slider-pressa-text {
   width: 340px;
- padding-bottom: 55px;
+  padding-bottom: 55px;
 }
 .item{
  padding-bottom: 50px;
@@ -491,6 +491,7 @@ body {
 
 /* news */
 .news {
+  padding: 0;
   margin-bottom: 100px;
 }
 
